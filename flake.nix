@@ -12,13 +12,13 @@
           url =
             "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-specific.tar.bz2";
           sha256 =
-            "sha256:b897d9728ac34858d2267d9b13e3f1f60522270feabeb80738a55452c3392306";
+            "sha256:1g7nq1yfaya97m43vnkjj1nd9g570viy8hj45c523hcyr1z92rjq";
         };
         "generic" = {
           url =
             "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-generic.tar.bz2";
           sha256 =
-            "sha256:96eff8dd894ad03e7e5e6d25e6dc491bc5dad9f3dde1ec16fbb3a40c6930dfff";
+            "sha256:tpV6twemD8qhtu+w/qBfYCoIEIQBa2y7x7bf8Bl8XbU=";
         };
       };
 
