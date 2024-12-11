@@ -6,19 +6,19 @@
   outputs = { self, nixpkgs, }:
     let
       system = "x86_64-linux";
-      version = "1.0.1-a.22";
+      version = "twilight";
       downloadUrl = {
         "specific" = {
           url =
             "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-specific.tar.bz2";
           sha256 =
-            "sha256:0anr79rdm62h5y37xa47rrrk32r9gnv04df4z7brc0hp4q83pxvi";
+            "sha256:0k2rziq1gnc01bfc3syhkbhrq76zn64fs81f0xaqpr43q6wrvp71";
         };
         "generic" = {
           url =
             "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-generic.tar.bz2";
-          sha256 =
-            "sha256:0anr79rdm62h5y37xa47rrrk32r9gnv04df4z7brc0hp4q83pxvi";
+
+          sha256 = "sha256:0mdk01sm6yjjywnr2n1zr3ydpbxlvnn1wfmq8nw2yll66zd95pqr";
         };
       };
 
@@ -125,7 +125,8 @@
 
           meta.mainProgram = "zen";
         };
-    in {
+    in
+    {
       packages."${system}" = {
         generic = mkZen { variant = "generic"; };
         specific = mkZen { variant = "specific"; };
