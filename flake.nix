@@ -6,7 +6,7 @@
   outputs = { self, nixpkgs, }:
     let
       system = "x86_64-linux";
-      version = "1.0.2-b.0";
+      version = "1.0.2-b.1";
       downloadUrl = {
         "specific" = {
           url =
