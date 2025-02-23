@@ -13,7 +13,7 @@
       downloadUrl = {
         "generic" = {
           url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-x86_64.tar.xz";
-          sha256 = "sha256:0l99sd2f0y037gslhzglgjzr2ca38kmhmyrldlnd7006fbbzmpmf";
+          sha256 = "sha256:00xp2pk1hgj1j4hjcfxa267rrd5vmkn9ifvd48nc37kmwk7n8ibv";
         };
       };
 
